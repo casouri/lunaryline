@@ -1,0 +1,49 @@
+#+TITLE: Lunaryline
+
+
+This is a fast and minimum alternative to beautiful but slow spaceline.
+Like spaceline, lunaryline is based on powerline.
+Unlike spaceline, there is no customization functionality.
+In another word, lunaryline is a powerline theme that looks like spaceline.
+
+*screenshot:*
+
+From left to right:
+- eyebrowse/winum number
+- buffer size
+- buffer name
+- major mode
+- flycheck
+- git
+- nyan-cat
+- encoding
+- line/colomn number
+- cursor position
+- HUD
+
+Normal:
+[[./screenshot/img0.png]]
+
+Edited:
+[[./screenshot/img1.png]]
+
+eyebrowse:
+[[./screenshot/img2.png]]
+
+* Install
+
+*Note:* lunaryline is not in melpa yet.
+
+
+Install powerline and lunaryline however you like.
+
+#+BEGIN_SRC lisp
+(require 'lunaryline)
+(lunaryline-default-theme)
+#+END_SRC
+
+If you want to use =use-package=:
+#+BEGIN_SRC lisp
+(use-package lunaryline
+  :config (lunaryline-default-theme))
+#+END_SRC
