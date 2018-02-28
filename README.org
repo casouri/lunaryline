@@ -20,6 +20,9 @@ From left to right:
 - line/colomn number
 - cursor position
 - HUD
+  
+*Note:* below are lunaryline under spacemace theme.
+YMMV with other themes.
 
 Normal:
 [[./screenshot/normal.png]]
