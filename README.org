@@ -22,13 +22,13 @@ From left to right:
 - HUD
 
 Normal:
-[[./screenshot/img0.png]]
+[[./screenshot/normal.png]]
 
 Edited:
-[[./screenshot/img1.png]]
+[[./screenshot/edited.png]]
 
 eyebrowse:
-[[./screenshot/img2.png]]
+[[./screenshot/eyebrowse.png]]
 
 * Install
 
