@@ -33,12 +33,11 @@ Edited:
 eyebrowse:
 [[./screenshot/eyebrowse.png]]
 
-* Install
+* To use lunaryline
 
-*Note:* lunaryline is not in melpa yet.
+*Note:* lunaryline is not in melpa.
 
-
-Install powerline and lunaryline however you like.
+Install powerline and put lunaryline.el in your load-path.
 
 #+BEGIN_SRC lisp
 (require 'lunaryline)
@@ -47,6 +46,8 @@ Install powerline and lunaryline however you like.
 
 If you want to use =use-package=:
 #+BEGIN_SRC lisp
-(use-package lunaryline
-  :config (lunaryline-default-theme))
+(use-package powerline
+  :config 
+  (require 'lunaryline)
+  (lunaryline-default-theme))
 #+END_SRC
