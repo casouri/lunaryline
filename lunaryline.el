@@ -36,6 +36,12 @@
 ;; (require 's)
 
 
+;;;###autoload
+(defun lunaryline-compile ()
+  "Byte (re)compile lunaryline.el."
+  (interactive)
+  (byte-recompile-file (buffer-file-name) nil 0))
+
 ;;
 ;; Color
 ;;
