@@ -51,3 +51,8 @@ If you want to use =use-package=:
   (require 'lunaryline)
   (lunaryline-default-theme))
 #+END_SRC
+
+Byte compile lunaryline.el can speed up things a bit:
+#+BEGIN_SRC lisp
+(lunaryline-compile)
+#+END_SRC
