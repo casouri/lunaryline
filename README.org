@@ -1,7 +1,8 @@
 #+TITLE: Lunaryline
 
 
-This is a fast and minimum alternative to beautiful but slow spaceline.
++This is a fast and minimum alternative to beautiful but slow spaceline.+
+No it is not any faster :cry:
 Like spaceline, lunaryline is based on powerline.
 Unlike spaceline, there is no customization functionality.
 In another word, lunaryline is a powerline theme that looks like spaceline.
